@@ -19,7 +19,7 @@
     <![endif]-->
   </head>
   <body> 
-    <div class="container-fluid">
+    <div class="container-fluid custom-container">
         <div class="row custom-main-row">
             <div class="col-lg-1"></div>
             
@@ -59,27 +59,54 @@
                       </div><!-- /.container-fluid -->
                     </nav>
                 </div>
-                
-                <div class="row galleria-row">
-                    <div class="galleria">
-                        <a href="/images/carrou1.jpg"><img src="/images/carrou1_ico.jpg" data-title="Cuarto" data-description="Cuartos hechos a tu medida"></a>
-                        <a href="/images/carrou2.jpg"><img src="/images/carrou2_ico.jpg" data-title="Entrada 1" data-description="Más actividades que cualquier otro lugar"></a>
-                        <a href="/images/carrou3.jpg"><img src="/images/carrou3_ico.jpg" data-title="Entrada 2" data-description="Uno de los hoteles más lujosos por ver"></a>
-                        <a href="/images/carrou4.jpg"><img src="/images/carrou4_ico.jpg" data-title="Piscina" data-description="La piscina más hermosa que verás"></a>
-                    </div>
+                <div class="row info-header">
+                    <h3>Contactanos</h3>
                 </div>
-                
-                <div class="row text-center">
-                    <h1>Bienvenido al hotel Le Petite Connard!</h1>
-                    <h1>Su siguiente aventura</h1>
-                    <h3>Dentro del corazon de San Francisco del Rincón, descubra como vivir en esta hermosa ciudad que se ha desarrollado desde el comercio del zapato y sombrero.</h3>
-                </div>
-                
-                <div class="row personalize-gmap">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-10">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25054.557471899323!2d-101.85934244868042!3d21.017385874517423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842be8514002d703%3A0xfc66771033826ac8!2sBlvrd+Aquiles+Serd%C3%A1n+Centro+524%2C+Purisima+Concepci%C3%B3n%2C+36364+San+Francisco+del+Rinc%C3%B3n%2C+Gto.!5e0!3m2!1sen!2smx!4v1460340339721" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                <div class="container">
+                <div class="row">
+                  <form role="form" action="" method="post" >
+                    <div class="col-lg-6">
+                      <div class="well well-sm"> <i class="glyphicon glyphicon-ok"></i> <strong> Campo Requerido</strong> </div>
+                      <div class="form-group">
+                        <label for="InputName">Tu Nombre</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Ingresar Nombre" required>
+                          <span class="input-group-addon"> <i class="glyphicon glyphicon-ok form-control-feedback"> </i> </span> </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="InputEmail">Tu Correo</label>
+                        <div class="input-group">
+                          <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Ingresar Correo" required  >
+                          <span class="input-group-addon"> <i class="glyphicon glyphicon-ok form-control-feedback"> </i> </span> </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="InputMessage">Mensaje</label>
+                        <div class="input-group">
+                          <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required> </textarea>
+                          <span class="input-group-addon"> <i class="glyphicon glyphicon-ok form-control-feedback"> </i> </span> </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="InputReal">Que es 4+3? (Opcional, para verificar contra spam)</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control" name="InputReal" id="InputReal" required>
+                          <span class="input-group-addon"> <i class="glyphicon glyphicon-ok form-control-feedback"> </i> </span> </div>
+                      </div>
+                      <input type="submit" name="submit" id="submit" value="Enviar" class="btn btn-info pull-right bottom-element">
                     </div>
+                  </form>
+                  <hr class="featurette-divider hidden-lg">
+                  <div class="col-lg-5 col-md-push-1">
+                    <address>
+                    <h3>Encuentranos En</h3>
+                    <p class="lead"> <a href="index.html">Le Petite Connard<br>
+                        </a> Calle Lomitas #666<br>
+                        Telefono: 476-123-1234<br>
+                        Fax: 476-123-6634</p>
+                    </address>
+                  </div>
+                </div>
+
                 </div>
                 
                 <div class="row personalize-footer">
@@ -106,17 +133,7 @@
         </div> <!-- /row -->
       </div> <!-- / body container fluid -->
     </div><!-- / body container fluid -->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/jquery-1.12.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/galleria/galleria-1.4.2.min.js"></script>
-    
-    <script>
-        //if (Galleria) { $("body").text('Galleria works') }
-        Galleria.loadTheme('js/galleria/themes/classic/galleria.classic.min.js');
-        Galleria.run('.galleria');
-    </script>
   </body>
 </html>

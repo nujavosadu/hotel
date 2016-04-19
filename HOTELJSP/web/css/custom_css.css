@@ -1,3 +1,7 @@
+/**** Generics ****/
+.bottom-element{
+    margin-bottom: 3%;
+}
 /**** MAIN NAV BAR ****/
 .main-icon{
     width: 100px;
@@ -81,4 +85,21 @@
 }
 .custom-center-row{
     height: 100%;
+}
+
+/**** INFORMACION ****/
+.galleria-row-info{
+    height: 600px;
+}
+
+.info-text{
+    color:#000;
+    font-size:1.2em;
+    margin:2% 0;
+}
+
+.info-header{
+    margin-top:-2%;
+    margin-bottom: 1%;
+    text-align: center;
 }
