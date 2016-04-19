@@ -66,3 +66,19 @@
     text-decoration: underline;
     line-height: 2em;
 }
+
+/**** LOGIN ****/
+
+.personalize-login{
+    padding: 2%;
+    margin: 0% 0 2% 0;
+    background: #F4C955;
+    border-radius: 4px;
+}
+
+.personalize-login form input{
+    margin: 2% auto;
+}
+.custom-center-row{
+    height: 100%;
+}
