@@ -1,0 +1,84 @@
+/**** MAIN NAV BAR ****/
+.main-icon{
+    width: 100px;
+    height: 100px;
+}
+.personalize-navbar{
+    background: #E4C162;
+}
+
+.personalize-navbar li a:hover,
+.personalize-navbar li a:focus{
+    background: #F7D16A;
+}
+
+.personalize-dropdown > ul{
+    background: #E4C162;
+}
+
+.personalize-dropdown .divider{
+    background-color: #FFF77B;
+}
+
+/**** BODY ****/
+
+.custom-center-body{
+    background: #EFDDAB;
+}
+
+.custom-main-row{
+    height: 100%;
+}
+
+.galleria-row{
+    margin-top:-10%;
+    height: 600px;
+    margin-bottom: 10%;
+}
+
+.galleria {
+    width: 100%;
+    height: 100%;
+    background: #BEB18B;
+}
+
+/**** GOOGLE MAPS ****/
+.personalize-gmap iframe{
+    width: 100%;
+    height: 500px;
+}
+
+/**** FOOTER ****/
+
+.personalize-footer{
+    background: #F7D16A;
+    border-top: #D1A93A solid 10px;
+}
+
+.footer-link-column{
+    margin-bottom: 3%;
+}
+
+.footer-link-column a{
+    float: left;
+    clear: both;
+    color: #000;
+    text-decoration: underline;
+    line-height: 2em;
+}
+
+/**** LOGIN ****/
+
+.personalize-login{
+    padding: 2%;
+    margin: 0% 0 2% 0;
+    background: #F4C955;
+    border-radius: 4px;
+}
+
+.personalize-login form input{
+    margin: 2% auto;
+}
+.custom-center-row{
+    height: 100%;
+}
