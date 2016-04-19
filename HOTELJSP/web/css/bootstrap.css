@@ -4495,8 +4495,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-right: 0;
   }
 }
-
-/*TWBSColor
+/*
+TWBSColor
 TWBSColor
 Generate your own Bootstrap navbar
 Select your colors
@@ -4508,20 +4508,20 @@ Active color
 Colorize dropdown
 Bookmark your permalink
 
-//http://work.smarchal.com/twbscolor/css/e4c162f7d16a0000000101010
+http://work.smarchal.com/twbscolor/css/e4c162f7d16a0000000101010
 
 Include Bootstrap assets
 
 //netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css
 //netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js
 
-//Copy the generated SCSS/SASS/LESS/CSS
+Copy the generated SCSS/SASS/LESS/CSS
 
     SCSS
     SASS
     LESS
     CSS
-    */
+*/
 .navbar-default {
   background-color: #e4c162;
   border-color: #f7d16a;
@@ -4592,6 +4592,20 @@ Include Bootstrap assets
   }
 }
 
+/*
+Find TWBSColor useful ? Share it !
+
+A work by Samuel Marchal
+
+Suggestions, comments, typo ?
+
+Licence MIT
+
+Buy me a coffee ! or Buy me a tea !
+
+All brand icons are trademarks of their respective owners.
+The use of these trademarks does not indicate endorsement of the trademark holder by TWBSColor, nor vice versa.
+*/
 .navbar-default .navbar-link {
   color: #777;
 }
